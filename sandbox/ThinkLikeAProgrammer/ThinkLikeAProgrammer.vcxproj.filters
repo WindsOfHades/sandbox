@@ -6,8 +6,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Shapes.cpp">
+    <ClCompile Include="src\Shapes\Shapes.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\LuhnChecksum\luhnChecksum.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Shapes\Shapes.h" />
+    <ClInclude Include="src\LuhnChecksum\luhnChecksum.h" />
   </ItemGroup>
 </Project>

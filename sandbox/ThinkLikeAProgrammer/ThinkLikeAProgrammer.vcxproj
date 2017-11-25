@@ -111,7 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Shapes.cpp" />
+    <ClCompile Include="src\LuhnChecksum\luhnChecksum.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Shapes\Shapes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LuhnChecksum\luhnChecksum.h" />
+    <ClInclude Include="src\Shapes\Shapes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
