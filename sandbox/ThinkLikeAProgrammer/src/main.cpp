@@ -3,8 +3,7 @@
 #include "LuhnChecksum\luhnChecksum.h"
 
 int main() {
-	getNumber();
-	std::cin.get();
+	validateChecksum();
 	std::cin.get();
 	return 0;
 }
